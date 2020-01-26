@@ -39,4 +39,12 @@
 
 \usepackage[binary-units]{siunitx}
 
+\usepackage[inline]{enumitem}
+\setlist[enumerate]{label*={(\arabic*)}}
+
+\newlist{rqs}{enumerate}{2}
+\setlist[rqs]{label*=RQ\arabic*:,ref=RQ\arabic*}
+
 \usepackage[capitalize]{cleveref}
+\crefname{rqsi}{research question}{research questions}
+

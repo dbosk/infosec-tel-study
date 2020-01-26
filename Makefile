@@ -3,6 +3,7 @@ all: notes.pdf
 
 SRC+=		preamble.tex
 SRC+=		abstract.tex contents.tex
+SRC+= 		intro.tex
 
 notes.pdf: notes.tex
 notes.pdf: ${SRC}
