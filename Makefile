@@ -5,6 +5,7 @@ SRC+= 		related.tex
 SRC+= 		method.tex
 SRC+= 		results.tex
 SRC+= 		conclusions.tex
+SRC+= 		module.tex
 
 DEPENDS+= 	bibedu.sty
 
