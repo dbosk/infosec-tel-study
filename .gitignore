@@ -2,6 +2,9 @@ literature/
 ltxobj/
 notes.pdf
 
+bibedu.bib
+bibedu.sty
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
